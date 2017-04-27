@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using TMDbLib.Client;
 using TMDbLib.Objects.General;
@@ -42,7 +43,11 @@ class Program
         Console.WriteLine($"\nYou selected the movie: {movie3.Title}");
 
         Console.WriteLine("\nStarring:\n");
-        
+
+        foreach (var genre in movie3.Genres)
+        {
+            Console.WriteLine(genre.Name);
+        }
         for (int j = 0; j < 5 && j < movie3.Credits.Cast.Count; j++)
          {
             
@@ -57,6 +62,13 @@ class Program
 
         foreach (ImageData image in movie3.Images.Posters)
             Console.WriteLine($"{image.FilePath} {image.AspectRatio}");
+
+        Console.WriteLine("Would you like to view the Trailer (Y/N)? ");
+        string view = Console.ReadLine();
+        if (view.ToLower().Equals("y"))
+        {
+            Process.Start("cmd", "/C Start" + " " + $"http://www.youtube.com/watch?v={movie3.Videos.Results[0].Key}");
+        }
         Console.Read();
 
 
