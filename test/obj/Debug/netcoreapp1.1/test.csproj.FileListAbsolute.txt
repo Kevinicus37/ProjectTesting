@@ -1,0 +1,9 @@
+c:\users\dogma\onedrive\documents\visual studio 2017\Projects\test\test\bin\Debug\netcoreapp1.1\test.deps.json
+c:\users\dogma\onedrive\documents\visual studio 2017\Projects\test\test\bin\Debug\netcoreapp1.1\test.runtimeconfig.json
+c:\users\dogma\onedrive\documents\visual studio 2017\Projects\test\test\bin\Debug\netcoreapp1.1\test.runtimeconfig.dev.json
+c:\users\dogma\onedrive\documents\visual studio 2017\Projects\test\test\bin\Debug\netcoreapp1.1\test.dll
+c:\users\dogma\onedrive\documents\visual studio 2017\Projects\test\test\bin\Debug\netcoreapp1.1\test.pdb
+c:\users\dogma\onedrive\documents\visual studio 2017\Projects\test\test\obj\Debug\netcoreapp1.1\test.csprojResolveAssemblyReference.cache
+c:\users\dogma\onedrive\documents\visual studio 2017\Projects\test\test\obj\Debug\netcoreapp1.1\test.AssemblyInfo.cs
+c:\users\dogma\onedrive\documents\visual studio 2017\Projects\test\test\obj\Debug\netcoreapp1.1\test.dll
+c:\users\dogma\onedrive\documents\visual studio 2017\Projects\test\test\obj\Debug\netcoreapp1.1\test.pdb
